@@ -63,7 +63,7 @@ export function Section3() {
       console.log(e.target.className);
       if (e.target.className === "modal activ") {
         setModal(false);
-        // console.log("ss");
+        console.log(setUsers);
       }
     });
   }, []);
