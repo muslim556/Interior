@@ -82,7 +82,7 @@ export function Section3() {
         <div id="sec3_users_container">
           {Users.map((item) => {
             return (
-              <div id="user_card" key={item.id}>
+              <div id="user_card" key={item.id} onClick={() => show(item)}>
                 <div id="sec3_img">
                   <img src={item.img} alt="" />
                 </div>
