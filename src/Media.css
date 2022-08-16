@@ -385,7 +385,7 @@
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 320px){
     #footer_card{
         width: 290px;
         text-align: center;
